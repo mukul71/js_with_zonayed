@@ -74,4 +74,4 @@ console.log(typeof(textNum)); //output String
 var complex = 10 + 10 +"Hello"+10; 
 console.log(complex);//output 10Hello10 
 //JS will add first 2 10s then get text and converts all to string. 
-console.log(typeof(complex));
+console.log(typeof(complex)); //string 
