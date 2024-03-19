@@ -1,3 +1,4 @@
+/*
 //Primitive Data Types
 //in primitive data types values are set directly 
 //common primitive data types are as below: 
@@ -75,3 +76,65 @@ var complex = 10 + 10 +"Hello"+10;
 console.log(complex);//output 10Hello10 
 //JS will add first 2 10s then get text and converts all to string. 
 console.log(typeof(complex)); //string 
+//
+//
+
+
+
+//Data change in variable
+var myName = "zonayed";
+console.log(myName);
+console.log("variable value changed:");
+myName = "Mukul";
+console.log(myName);
+var someThing = "Zonayed Ahmed";
+console.log(someThing);
+console.log(typeof(someThing));
+//changing value to someThing to 10
+console.log("Value and type changed");
+someThing = 10;
+console.log(someThing);
+console.log(typeof(someThing));
+
+//Comment 
+var myLastName = "Rahman" // single line comment
+
+/*
+This 
+is 
+Multiline Comment.
+*/
+
+console.log("Operators in JavaScript");
+console.log("Arithmatic operators:");
+
+var a = 10;
+var b = 5;
+console.log("a + b =",a+b);
+console.log("a - b =",a+b);
+console.log("a * b =",a+b);
+console.log("a / b =",a+b);
+console.log("100/3 = ",100/3);
+console.log("Modulus");
+console.log("13%5 =",13%5); //output 3
+console.log("++ Increment:");
+var a = 15;
+a++;
+console.log(a); //output 16
+console.log("-- Decrement:");
+var b = 15;
+b--;
+console.log(b)//output 14
+console.log("Comparison:");
+var a = 20; 
+var b = 15;
+console.log(a==b); //output false
+console.log(a!=b); //ture
+console.log(a<b); //false
+console.log(a>b);//true 
+console.log(a>=b);//true
+console.log(a<=b);//false
+
+
+
+
