@@ -29,3 +29,12 @@ console.log(objArr.name[0], objArr.age[0]);
 for (var i=0; i<objArr.name.length;i++){
     console.log("Name: "+objArr.name[i]+" Age: "+objArr.age[i]);
 }
+
+var arrObj = [
+    'Zonayed',{
+        name: 'Rafik',
+        age: 22,
+        locataion: 'Dhaka'
+    },
+    'Bangladesh'
+]
