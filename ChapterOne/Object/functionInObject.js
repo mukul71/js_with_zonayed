@@ -16,8 +16,16 @@ for (item in fruits){
 
 var objArr = {
     normal : "Normal Item",
-    name : ['Rahim','Karim','Rafik','Shafik'],
+    name : ['Rahim','Karim','Rafik','Shafik','Halim'],
     age: [10, 20,30,40]
 }
 
 console.log(objArr.name);
+console.log(objArr.name[2]);
+console.log(objArr.age[3]);
+console.log(objArr.name[0] );
+console.log(objArr.name[0], objArr.age[0]);
+
+for (var i=0; i<objArr.name.length;i++){
+    console.log("Name: "+objArr.name[i]+" Age: "+objArr.age[i]);
+}
