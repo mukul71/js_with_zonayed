@@ -6,3 +6,9 @@ function anoGlobal(){
     anoLocal();
 }
 anoGlobal()
+
+function autoVar(){
+    name = 'Zonayed Ahmaed';
+}
+autoVar();
+console.log(name);
