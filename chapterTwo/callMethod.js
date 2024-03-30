@@ -25,3 +25,12 @@ var myCustomObj = {
     }
 }
 myCustomObj.anotherObj.value.call(myCustomObj);
+
+var karim = {
+    name: 'Karim Rahman',
+    dob: 1996,
+    age: function(currentYear){
+        console.log(this.name+' is '+ (currentYear - this.dob+' years old'));
+    }
+}
+karim.age(2024);
