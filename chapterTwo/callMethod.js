@@ -9,4 +9,5 @@ var myCustomObj = {
         }
     }
 }
-myCustomObj.anotherObj.value();
+myCustomObj.anotherObj.value(); // Output Ahmed Zonayed
+myCustomObj.anotherObj.value.call(myCustomObj); // Output Zonayed Ahmed
