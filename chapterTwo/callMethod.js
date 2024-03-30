@@ -33,4 +33,11 @@ var karim = {
         console.log(this.name+' is '+ (currentYear - this.dob+' years old'));
     }
 }
-karim.age(2024);
+karim.age(2024); // 2024 is the current year.
+
+var rahim = {
+    name: 'Abdu Rahim',
+    dob:1986
+}
+
+karim.age.call(rahim,2024); //2024 is the current year
