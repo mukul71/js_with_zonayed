@@ -15,3 +15,9 @@ console.log(employee1.name, employee1.joyrs);
 
 //calling the method from the prototype
 employee1.yearOfExperience();
+
+// we can variable to prototype also
+
+Employee.prototype.address = 'Bangladesh';
+
+console.log(employee1.address);
