@@ -21,3 +21,6 @@ employee1.yearOfExperience();
 Employee.prototype.address = 'Bangladesh';
 
 console.log(employee1.address);
+
+var  employee2 = new Employee('Tinsal Chakma','Data','Data Entry',2023,'Dhaka');
+console.log(employee2);
