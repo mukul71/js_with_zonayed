@@ -12,3 +12,5 @@ var name = 'Zonayed Ahmed';
 var nama = 'Ahmed Zonayed';
 console.log('Name: '+name);
 console.log('Mistakenly created:', nama);
+//unfortunately this code working nicely without 
+//showing any erro. 
