@@ -13,4 +13,23 @@
 }
 // we cannot access above variables from outside of this scope
 
-console.log('value of pi is:'+pi); // pi is not defined
+//console.log('value of pi is:'+pi); // pi is not defined
+
+//we can access myName() func outside {} as var is used.
+/*{
+    var myName = function(){
+        var a = 'Zonayed Ahmed';
+        console.log(a);
+    }
+}
+myName();// output: Zonayed Ahmed
+*/
+
+//we cannot access myName() func outside {} if let or const is used
+{
+    const myName = function(){
+        const a = 'Zonayed Ahmed';
+        console.log(a);
+    }
+}
+myName();//output: myName() is not defined.
