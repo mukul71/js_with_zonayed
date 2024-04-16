@@ -15,3 +15,9 @@ console.log(end.endsWith('programming'));
 console.log('includes Method');
 const inc = 'I love programming with JavaScript';
 console.log(inc.includes('JavaScript'));
+
+//repeat: to repeat a string upto a specific number of times
+
+console.log('repeat Method');
+const rept = 'Hello! World ';
+console.log(rept.repeat(5));
