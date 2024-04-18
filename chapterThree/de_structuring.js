@@ -48,5 +48,17 @@ console.log(nameobjES6);
 console.log(ageObjES6);
 console.log(professionObjES6);
 
+//we can go deep with object
+console.log();
+console.log('Destructuring Nested Object');
 
+var comObj = {
+    anotherObj: {
+        anotherNewObj:{
+            title: 'JavaScript ES6'
+        }
+    }
+}
+const {anotherObj:{anotherNewObj:{title}}} = comObj;
+console.log(title);
 
