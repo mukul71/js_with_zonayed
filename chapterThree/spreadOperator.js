@@ -31,4 +31,13 @@ console.log(arrName6);
 const arrName7 = [...arrName6,'Language'];
 console.log(arrName7);
 
+//spread operator to concate arrays in ES6
+console.log();
+
+let arrOne6 = [0,1,2,3,4];
+let arrTwo6 = [5,6,7,8,9];
+let arrThree6 = [...arrOne6, ...arrTwo6];
+console.log(arrThree6);
+
+
 
