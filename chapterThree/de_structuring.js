@@ -41,3 +41,12 @@ console.log(nameObj);
 console.log(ageObj);
 console.log(professionObj);
 
+console.log();
+console.log('Destructuring Obj in different names');
+const {nameObj:nameobjES6, ageObj:ageObjES6, professionObj:professionObjES6} = zonayedObj;
+console.log(nameobjES6);
+console.log(ageObjES6);
+console.log(professionObjES6);
+
+
+
