@@ -13,6 +13,19 @@ console.log(profession);
 console.log();
 console.log('Destructuring in ES6');
 const [name6, age6, profession6] = zonayed;
-console.log(name);
-console.log(age);
-console.log(profession);
+console.log(name6);
+console.log(age6);
+console.log(profession6);
+
+//Destructuring in Object in ES5
+console.log();
+console.log('Destructuring in Object in ES5');
+const zonayedObj = {
+    nameObj: 'Zonayed Ahmed',
+    ageObj: 21,
+    professionObj: 'Student'
+};
+
+console.log(zonayedObj.nameObj);
+console.log(zonayedObj.ageObj);
+console.log(zonayedObj.professionObj);
