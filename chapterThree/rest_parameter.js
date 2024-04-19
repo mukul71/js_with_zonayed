@@ -17,3 +17,13 @@ function arguments6(...anyName){
     }
 }
 arguments6('Football','Cricket','Hocky','Tennis','Ha du du');
+
+//uses of rest parameter in function
+console.log();
+console.log("Rest Parameter in function");
+const argumentsArr6 = (...anyName)=>{
+    for (var i =0;i<anyName.length;i++){
+        console.log('Argument passed: '+anyName[i]);
+    }
+}
+argumentsArr6('China','Japan','Cambodia','Vietnam');
