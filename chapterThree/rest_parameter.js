@@ -7,3 +7,13 @@ function arguments5 () {
     }
 }
 arguments5('Bangladesh', 'India', 'Sri Lanka');
+
+//Rest parameter in ES6
+console.log();
+console.log('Rest Parameter in ES6');
+function arguments6(...anyName){
+    for (var i = 0; i<anyName.length;i++){
+        console.log('Arguments passed: '+anyName[i]);
+    }
+}
+arguments6('Football','Cricket','Hocky','Tennis','Ha du du');
