@@ -5,3 +5,9 @@ var newArr = arr.filter (function (item) {
 }
 );
 console.log(newArr);
+
+console.log();
+console.log("ES6 Used");
+const newArrES6 = arr.filter(item => item % 2 ===0);
+console.log(newArrES6);
+
