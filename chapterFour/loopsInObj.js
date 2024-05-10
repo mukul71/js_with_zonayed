@@ -10,4 +10,8 @@ var obj = {
 
 for(name in obj){
     console.log(name);
+    //console.log(obj[name]);
 }
+
+var capitals = Object.values(obj);
+console.log(capitals);
